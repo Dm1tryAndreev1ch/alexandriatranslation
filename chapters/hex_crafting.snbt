@@ -10,9 +10,9 @@
 	quests: [
 		{
 			description: [
-				"Hex Casting is a stack based programmable spellcasting mod. By progresssing through the lore found in the guidebook, you'll learn all about hex spell casting. You can create your own spells with a staff on the hexagonal casting grid, program items to hold spells that you can cast at will and uncover the lore found in the mod as you progress."
+				"Hex Casting — это мод на программируемое заклинание на основе стеков. Изучая лор в путеводителе, вы узнаете все о заклинании гексов. Вы можете создавать собственные заклинания с помощью посоха на гексагональной сетке, программировать предметы для хранения заклинаний, которые можно применять по желанию, и раскрывать лор мода по мере прохождения."
 				""
-				"Everything starts with the book, it contains in depth explanations of each of the fascinating aspects of this mod, and it should serve as your primary guide."
+				"Все начинается с книги, в которой содержатся подробные объяснения каждого из увлекательных аспектов этого мода, и она должна служить вашим основным руководством."
 			]
 			icon: {
 				Count: 1b
@@ -35,7 +35,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Getting started"
+			subtitle: "Начало пути"
 			tasks: [{
 				id: "58244EC6E17EAEFD"
 				title: "Hex Casting"
@@ -46,7 +46,7 @@
 		}
 		{
 			dependencies: ["283C1A5435769DC3"]
-			description: ["\"Media\" is the main form of energy in this mod, and it can be harvested in large amounts by the amethyst crystals found in amethyst geodes."]
+			description: ["«Медиа» — это основная форма энергии в этом моде, и её можно собирать в больших количествах из аметистовых кристаллов, найденных в аметистовых жеодах."]
 			id: "69395421DAE17328"
 			rewards: [{
 				id: "60DCCE6C82555747"
@@ -63,20 +63,20 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "Doing Crystal Math."
+			subtitle: "Занимательная кристаломатика."
 			tasks: [{
 				count: 16L
 				id: "224024A2F685E7F1"
 				item: "minecraft:amethyst_shard"
 				type: "item"
 			}]
-			title: "Cooking up some Media"
+			title: "Приготовление Медиа"
 			x: -5.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["69395421DAE17328"]
-			description: ["The staff will be the tool you use to cast all your spells in Hex Casting. You can make a staff out of all wood types"]
+			description: ["Посох будет инструментом, который вы используете для произнесения всех ваших заклинаний в Hex Casting. Вы можете сделать посох из всех видов дерева."]
 			id: "5B94C77A29A3BF35"
 			rewards: [{
 				id: "552E6AD7E12D0CAC"
@@ -93,7 +93,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "It's \"Leviosaaahhh\" not \"Leviosaawwhh\""
+			subtitle: "Это «Левиосааа», а не «Левиосаауу»"
 			tasks: [{
 				id: "60DA89048ED4422C"
 				item: {
@@ -103,19 +103,19 @@
 						value: "hexcasting:staves"
 					}
 				}
-				title: "Any Staff"
+				title: "Любой посох"
 				type: "item"
 			}]
-			title: "Wingardium Leviosa!"
+			title: "Вингардиум Левиоса!"
 			x: -2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["69395421DAE17328"]
 			description: [
-				"Scrolls are a useful tool for writing patterns that you can share with others, or display prettily on a wall."
+				"Свитки — полезный инструмент для записи паттернов, которыми вы можете поделиться с другими или красиво повесить на стену."
 				""
-				"For more information, refer to the Hex Casting guidebook's entry on the Scrolls"
+				"Для получения дополнительной информации обратитесь к записи путеводителя Hex Casting о свитках."
 			]
 			id: "4AB770D7E88D2367"
 			rewards: [{
@@ -133,7 +133,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "Spellcast Doom Scrolling"
+			subtitle: "Думскроллинг заклинаний"
 			tasks: [
 				{
 					id: "1CEAE5B5FF63D6F6"
@@ -151,18 +151,18 @@
 					type: "item"
 				}
 			]
-			title: "Pattern Encapsulation"
+			title: "Инкапсуляция паттернов"
 			x: -3.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["68FF81FF5F625057"]
 			description: [
-				"Just like the Foci, the Spellbook is capable of storing Iotas for usage in spells later."
+				"Так же, как и Фокус, Книга заклинаний способна хранить йоты для последующего использования в заклинаниях."
 				""
-				"Unlike the Foci however, it can store more than 1 Iota. To be exact, it can store 64 Iotas for spell casting."
+				"Однако, в отличие от Фокуса, она может хранить более 1 йоты. Если быть точным, она может хранить 64 йоты для произнесения заклинаний."
 				""
-				"For more information, refer to the Hex Casting guidebook's entry on the Spell book."
+				"Для получения дополнительной информации обратитесь к записи путеводителя Hex Casting о Книге заклинаний."
 			]
 			id: "6C1EC07A6CB811D7"
 			rewards: [{
@@ -180,7 +180,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "Foci²"
+			subtitle: "Фокус²"
 			tasks: [{
 				id: "7B1111F9109F7B79"
 				item: {
@@ -193,18 +193,18 @@
 				}
 				type: "item"
 			}]
-			title: "Hyperfocused"
+			title: "Гиперфокусировка"
 			x: -0.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["69395421DAE17328"]
 			description: [
-				"A Cypher is a fragile crystal and one of the 3 magic items capable of holding Hexes and all their patterns, as well as a small battery to hold Media to cast spells with."
+				"Сайфер — это хрупкий кристалл и один из 3 магических предметов, способных удерживать Гексы и все их паттерны, а также небольшая батарея для хранения Медиа для произнесения заклинаний."
 				""
-				"The Cypher is the weakest of the 3, breaking as soon as the internal battery of the Cypher is depleted. It's also not rechargable, so make good use of it while it's still around!"
+				"Сайфер — самый слабый из 3, ломающийся, как только внутренняя батарея Сайфера разряжается. Он также не подлежит перезарядке, поэтому используйте его с умом, пока он еще есть!"
 				""
-				"For more information, refer to the Hex Casting guidebook's entry on the Casting Items"
+				"Для получения дополнительной информации обратитесь к записи путеводителя Hex Casting о Предметах для заклинаний."
 			]
 			id: "4A5B2026DD41B03B"
 			rewards: [{
@@ -222,19 +222,19 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "No, not that kind of Cypher!"
+			subtitle: "Нет, не тот шифр!"
 			tasks: [{
 				id: "00ADE7C16BC23A65"
 				item: "hexcasting:cypher"
 				type: "item"
 			}]
-			title: "Cryptic Casting"
+			title: "Загадочное заклинание"
 			x: -3.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["4A5B2026DD41B03B"]
-			description: ["Like the Cypher, the Trinket is capable is storing the patterns in a Hex. Unlike the Cypher, the Trinket does not break once depleted of its internal battery, but can't be used when empty. The internal battery is rechargable though."]
+			description: ["Как и Сайфер, Брелок способен хранить паттерны в Гексе. В отличие от Сайфера, Брелок не ломается после разрядки внутренней батареи, но его нельзя использовать, когда он пуст. Однако внутренняя батарея перезаряжаема."]
 			id: "103EE7B28300222E"
 			rewards: [{
 				id: "18889997B4A331B9"
@@ -251,22 +251,22 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "A Curios little thing."
+			subtitle: "Любопытная вещица."
 			tasks: [{
 				id: "10EE322291807F66"
 				item: "hexcasting:trinket"
 				type: "item"
 			}]
-			title: "Trinket Trickery"
+			title: "Трюки с брелоком"
 			x: -2.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["103EE7B28300222E"]
 			description: [
-				"The Artifact is the most expensive (and most useful) of the 3 casting items in Hex Casting. Its capable of storing a hex and its patterns just like the Cypher and the Trinket. Just like the Trinket, it doesn't break when depleted and is rechargable."
+				"Артефакт — самый дорогой (и самый полезный) из 3 предметов для заклинаний в Hex Casting. Он способен хранить гекс и его паттерны, как и Сайфер и Брелок. Как и Брелок, он не ломается при разрядке и перезаряжается."
 				""
-				"Unlike the Trinket, however, the Artifact is not useless when depleted, instead it's capable of using the caster's Media. Be careful! Just like casting spells with the staff, if you don't have enough Media bad things can happen..."
+				"Однако, в отличие от Брелока, Артефакт не бесполезен, когда разряжен, вместо этого он способен использовать Медиа заклинателя. Будьте осторожны! Как и при использовании посоха, если у вас недостаточно Медиа, могут случиться плохие вещи..."
 			]
 			id: "18AE8D45D703112B"
 			rewards: [{
@@ -284,24 +284,24 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "Idk, I ran out of ideas"
+			subtitle: "Хз, у меня кончились идеи"
 			tasks: [{
 				id: "6FEF127BDA178AFB"
 				item: "hexcasting:artifact"
 				type: "item"
 			}]
-			title: "Artifact... Artifacting..?"
+			title: "Артефакт... Артефактинг..?"
 			x: -0.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["4AB770D7E88D2367"]
 			description: [
-				"A Focus is a neat little items that is capable of storing a single Iota onto it"
+				"Фокус — это аккуратный маленький предмет, способный хранить на себе одну йоту."
 				""
-				"You can store many different patterns on a focus, and recall them when casting spells to make casting more complex spells more efficient."
+				"Вы можете хранить множество различных паттернов на фокусе и вызывать их при произнесении заклинаний, чтобы сделать произнесение более сложных заклинаний более эффективным."
 				""
-				"For more information, refer to the Hex Casting guidebook's entry on the Focus."
+				"Для получения дополнительной информации обратитесь к записи путеводителя Hex Casting о Фокусе."
 			]
 			id: "68FF81FF5F625057"
 			rewards: [{
@@ -319,7 +319,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "A Mere Iota"
+			subtitle: "Всего лишь Йота"
 			tasks: [{
 				id: "3077C39AB753498D"
 				item: "hexcasting:focus"
@@ -366,7 +366,7 @@
 			}]
 			shape: "hexagon"
 			size: 4.0d
-			subtitle: "Complete all quests to obtain the trophy!"
+			subtitle: "Выполните все квесты, чтобы получить трофей!"
 			tasks: [{
 				id: "2EC4AF48B63D2EE3"
 				title: "&dHex Casting 100%"
