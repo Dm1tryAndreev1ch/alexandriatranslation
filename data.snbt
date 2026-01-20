@@ -18,6 +18,6 @@
 	}
 	pause_game: false
 	progression_mode: "linear"
-	title: "&lAlexandria 6"
+	title: "&lAlexandria"
 	version: 13
 }
