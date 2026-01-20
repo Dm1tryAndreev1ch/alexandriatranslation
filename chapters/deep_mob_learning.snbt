@@ -11,38 +11,38 @@
 		{
 			dependencies: ["394DCDE468051067"]
 			description: [
-				"A blank data model does absolutely nothing, you will need to bound it with a Category."
+				"Пустая модель данных абсолютно ничего не делает, вам нужно привязать её к категории."
 				""
-				"Categories are (as the name suggests) categories of aggressive mobs in Minecraft."
+				"Категории (как следует из названия) — это группы агрессивных мобов в Minecraft."
 				""
-				"Currently, these are the categories:"
+				"На данный момент существуют следующие категории:"
 				""
-				"- From Hades"
-				"Groups common mobs of the Nether."
+				"- Из Аида"
+				"Группирует обычных мобов Незера."
 				""
-				"- Overworld"
-				"Groups common mobs of the Overworld."
+				"- Верхний мир"
+				"Группирует обычных мобов Верхнего мира."
 				""
-				"- Slimy"
-				"Groups slime-like mobs."
+				"- Слизистые"
+				"Группирует слизнеподобных мобов."
 				""
-				"- Rotten Guys"
-				"Groups zombie mobs."
+				"- Гнилые ребята"
+				"Группирует зомби-мобов."
 				""
-				"- Spooky Scary Skeletons"
-				"Groups skeletons mobs."
+				"- Жуткие страшные скелеты"
+				"Группирует скелетов."
 				""
-				"- End Mobs"
-				"Groups common mobs of The End."
+				"- Мобы Энда"
+				"Группирует обычных мобов Энда."
 				""
-				"- From Emeritus"
-				"Groups Ghost mobs."
+				"- Из Эмеритуса"
+				"Группирует призрачных мобов."
 				""
-				"- Illager Mobs"
-				"Groups Illager-like mobs."
+				"- Илладжеры"
+				"Группирует мобов-илладжеров."
 				""
-				"- Poseidon Children"
-				"Groups ocean mobs."
+				"- Дети Посейдона"
+				"Группирует океанских мобов."
 			]
 			id: "2EA2885C13B2C158"
 			rewards: [{
@@ -59,7 +59,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "To get started with the mod you will need a Blank Data Model."
+			subtitle: "Чтобы начать работу с модом, вам понадобится пустая модель данных."
 			tasks: [{
 				id: "6FD0D261E90790A2"
 				item: {
@@ -75,17 +75,17 @@
 		{
 			dependencies: ["0CCCC61B10044F46"]
 			description: [
-				"Right-click with it and you will be presented to its GUI."
+				"Нажмите ПКМ, чтобы открыть интерфейс."
 				""
-				"Pick your Data Model and put in one of the slots, you will be able to preview in the left side which mobs are in the category you chosen."
+				"Выберите вашу модель данных и поместите её в один из слотов. Слева вы сможете увидеть предварительный просмотр мобов в выбранной категории."
 				""
-				"A single Deep Learner supports 4 Data Models at the same time, you can navigate through them using the arrow buttons above the slots."
+				"Один Глубокий изучитель поддерживает 4 модели данных одновременно, вы можете переключаться между ними с помощью кнопок со стрелками над слотами."
 				""
-				"The Deep Learner also shows the current model's Data Amount and Tier. You can also view this just by putting your mouse above the Data Model and looking at its tooltip."
+				"Глубокий изучитель также показывает количество данных и уровень текущей модели. Вы также можете увидеть это, просто наведя курсор на модель данных и посмотрев на всплывающую подсказку."
 				""
-				"Just keep your Deep Learner in hands (in your hotbar) and start killing mobs!"
+				"Просто держите Глубокий изучитель в руках (на панели быстрого доступа) и начинайте убивать мобов!"
 				""
-				"Just keep killing mobs and you will notice the Data Amount of your Data Models getting higher, and its Tier will be higher too."
+				"Продолжайте убивать мобов, и вы заметите, как количество данных ваших моделей данных растет, а их уровень повышается."
 			]
 			id: "5A7277E2D1A1C51D"
 			rewards: [{
@@ -102,7 +102,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Collect data about the mobs you want to learn."
+			subtitle: "Собирайте данные о мобах, которых хотите изучить."
 			tasks: [{
 				id: "1F74315ED1FF9FCB"
 				item: "dml-refabricated:deep_learner"
@@ -114,15 +114,15 @@
 		{
 			dependencies: ["2EF788D6F29C5EDA"]
 			description: [
-				"The Trial Key used in the crafting has no effect, so I's suggest you to use an Unbound one to avoid loosing your precious data."
+				"Ключ испытаний, используемый в крафте, не имеет эффекта, поэтому я советую использовать непривязанный, чтобы не потерять драгоценные данные."
 				""
-				"After you have one, put it in a good location in the world and start getting ready for your fight."
+				"Как только он у вас появится, поместите его в удобное место в мире и начинайте готовиться к бою."
 				""
-				"Before getting into the fight, I'd like to present to you who you gonna fight:"
+				"Прежде чем вступать в бой, я хотел бы представить вам того, с кем вы будете сражаться:"
 				""
-				"> The System Glitch is a pretty strong mob, its life will vary depending of the tier of the Trial you are running. He is also pretty fast, and will be teleporting and tricking you."
+				"> Системный сбой — довольно сильный моб, его здоровье будет зависеть от уровня испытания, которое вы запускаете. Он также довольно быстр и будет телепортироваться и обманывать вас."
 				""
-				"To get started, get a bound Trial Key and click in the Trial Keystone!"
+				"Чтобы начать, возьмите привязанный ключ испытаний и нажмите на краеугольный камень испытаний!"
 			]
 			id: "01D568488C874E51"
 			rewards: [{
@@ -139,7 +139,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Craft a Trial Keystone."
+			subtitle: "Создайте Краеугольный камень испытаний."
 			tasks: [{
 				id: "1CAE14E935895EEE"
 				item: "dml-refabricated:trial_keystone"
@@ -151,17 +151,17 @@
 		{
 			dependencies: ["5A7277E2D1A1C51D"]
 			description: [
-				"Trial Keys are what you will be using to getting the attention of the System Glitch and challenging it to a fight."
+				"Ключи испытаний — это то, что вы будете использовать, чтобы привлечь внимание Системного сбоя и вызвать его на бой."
 				""
-				"Now that you have a Trial Key, you should bound it to the category and tier you want to fight."
+				"Теперь, когда у вас есть ключ испытаний, вы должны привязать его к категории и уровню, с которыми хотите сразиться."
 				""
-				"Just put an unbound Trial Key in the crafting table next to a Data Model."
+				"Просто положите непривязанный ключ испытаний в верстак рядом с моделью данных."
 				""
-				"All the data inside your Trial Model will be transferred to the Trial Key, and the Data Model well be gone."
+				"Все данные внутри вашей модели данных будут перенесены в ключ испытаний, а модель данных исчезнет."
 				""
-				"Pay attention to the tier and category of the Data Model you bind to the Key. Certain categories are harder than others, and high tiered trials can be very difficult."
+				"Обратите внимание на уровень и категорию модели данных, которую вы привязываете к ключу. Некоторые категории сложнее других, а испытания высокого уровня могут быть очень трудными."
 				""
-				"You may have noticed that your Trial Key also has a \"Affixes\" list. Those are special effects that can occur during the trial. Some of them may help you, some of them not."
+				"Вы могли заметить, что у вашего ключа испытаний также есть список «Аффиксов». Это специальные эффекты, которые могут возникнуть во время испытания. Некоторые из них могут помочь вам, некоторые нет."
 			]
 			id: "2EF788D6F29C5EDA"
 			rewards: [{
@@ -178,7 +178,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Challenge to a fight!"
+			subtitle: "Вызов на бой!"
 			tasks: [{
 				id: "1712246FD3D1B782"
 				item: {
@@ -194,15 +194,15 @@
 		{
 			dependencies: ["7CB1D7180312E135"]
 			description: [
-				"Loot Fabricator is the machine you will be using to turn Pristine Matter into something useful."
+				"Фабрикатор добычи — это машина, которую вы будете использовать для превращения чистой материи во что-то полезное."
 				""
-				"You can put those inside a Loot Fabricator and wait until it turns into mob loot."
+				"Вы можете положить их внутрь Фабрикатора добычи и ждать, пока они превратятся в добычу с мобов."
 				""
-				"Each Pristine Matter is equivalent of killing 16 mobs of its category."
+				"Каждая чистая материя эквивалентна убийству 16 мобов своей категории."
 				""
-				"In other words the loot that will be given to you is what you would gain if you kill 16 mobs (with no Loot enchantment) of the matter's category."
+				"Другими словами, добыча, которую вам дадут, — это то, что вы получили бы, убив 16 мобов (без зачарования «Добыча») категории материи."
 				""
-				"You can input and extract items to/from the Loot Fabricator by using hoppers or pipes."
+				"Вы можете загружать и извлекать предметы в/из Фабрикатора добычи с помощью воронок или труб."
 			]
 			id: "22AED97627B96620"
 			rewards: [{
@@ -219,7 +219,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Turn Pristine Matter into loot!"
+			subtitle: "Превратите чистую материю в добычу!"
 			tasks: [{
 				id: "26F16521AC49E60B"
 				item: "dml-refabricated:loot_fabricator"
@@ -231,14 +231,14 @@
 		{
 			dependencies: ["01D568488C874E51"]
 			description: [
-				"As I said before, you will be facing the System Glitch at your fight, but it is not alone!"
+				"Как я уже говорил, вы столкнетесь с Системным сбоем в бою, но он не один!"
 				""
 				""
-				"Higher tiers will have bigger waves, and they will be called faster. So, pay attention to it."
+				"На более высоких уровнях будут большие волны, и они будут призываться быстрее. Так что обратите на это внимание."
 				""
-				"Sometimes the waves will be enemies even harder than the System Glitch itself."
+				"Иногда волны будут состоять из врагов даже сложнее, чем сам Системный сбой."
 				""
-				"Those ingots alone are completely useless. But maybe if you combine with a piece of netherite armor you will get something useful. Try doing it in the Smithing Table."
+				"Сами по себе эти слитки совершенно бесполезны. Но, возможно, если вы объедините их с частью незеритовой брони, вы получите что-то полезное. Попробуйте сделать это на столе кузнеца."
 			]
 			id: "3F69B97A783AC81C"
 			rewards: [{
@@ -255,7 +255,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Kill System Glitch, gather Matrix Fragments and craft a Glitch Ingot."
+			subtitle: "Убейте Системный сбой, соберите фрагменты матрицы и создайте слиток сбоя."
 			tasks: [{
 				id: "763F3B0C76A6CB16"
 				item: "dml-refabricated:glitch_ingot"
@@ -266,7 +266,7 @@
 		}
 		{
 			dependencies: ["2EA2885C13B2C158"]
-			description: ["Data Models are chips where you will store the information of mobs you learn."]
+			description: ["Модели данных — это чипы, на которых вы будете хранить информацию о мобах, которых изучаете."]
 			id: "0CCCC61B10044F46"
 			rewards: [{
 				id: "51A4345B62855F6F"
@@ -282,7 +282,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Craft a Data Model of choice."
+			subtitle: "Создайте модель данных на выбор."
 			tasks: [{
 				id: "4A4F270C7B4CB954"
 				item: {
@@ -338,29 +338,29 @@
 						]
 					}
 				}
-				title: "Get a data model"
+				title: "Получите модель данных"
 				type: "item"
 			}]
-			title: "Data Models"
+			title: "Модели данных"
 			x: -8.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["7CB1D7180312E135"]
 			description: [
-				"Provide the Simulation Chamber with energy and place some Polymer Clay in the top right slot that has an E in it."
+				"Обеспечьте симуляционную камеру энергией и поместите немного полимерной глины в верхний правый слот с буквой E."
 				""
-				"Now, you will have to put one of your Data Models into the Simulation Machine."
+				"Теперь вам нужно поместить одну из ваших моделей данных в симуляционную камеру."
 				""
-				"Shift left click on a Data Model in your inventory to move it into the Simulation Chamber."
+				"Нажмите Shift + ЛКМ на модели данных в вашем инвентаре, чтобы переместить её в симуляционную камеру."
 				""
-				"Once the Simulation Chamber has a Data Model that is a minimum of Basic Tier, some polymer clay, and some energy, it will start running simulations."
+				"Как только в симуляционной камере окажется модель данных минимум базового уровня, немного полимерной глины и энергии, она начнет запускать симуляции."
 				""
-				"There are 4 types of ordinary matter: Overworldian Matter, Hellish Matter, Extraterrestrial Matter, and Twilight Matter."
+				"Существует 4 типа обычной материи: Материя Верхнего мира, Адская материя, Внеземная материя и Сумеречная материя."
 				""
-				"The matter that is produced by a simulation depends on the dimension from which the mob in the Data Model originates."
+				"Материя, которая производится симуляцией, зависит от измерения, из которого происходит моб в модели данных."
 				""
-				"For example, an Enderman Data Model produces Extraterrestrial Matter. Holding shift while hovering your mouse over a Data Model will tell you what kind of Data Model it is."
+				"Например, модель данных Эндермена производит Внеземную материю. Удерживая Shift при наведении курсора мыши на модель данных, вы узнаете, что это за модель данных."
 			]
 			id: "0DEE3926C25C2221"
 			rewards: [{
@@ -377,7 +377,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Now that you have some Data Models that are leveled up to at least Basic tier, we can move on to the good stuff."
+			subtitle: "Теперь, когда у вас есть несколько моделей данных, прокачанных хотя бы до базового уровня, мы можем перейти к хорошим вещам."
 			tasks: [{
 				id: "79866817A5588058"
 				item: "dml-refabricated:simulation_chamber"
@@ -389,11 +389,11 @@
 		{
 			dependencies: ["7CB1D7180312E135"]
 			description: [
-				"Grab a bit of Pristine Matter and start filling your Matter Condenser with the armor piece you want to upgrade and the matter."
+				"Возьмите немного чистой материи и начните заполнять Конденсатор материи частью брони, которую вы хотите улучшить, и материей."
 				""
-				"Its pretty expensive tho, but it may be worth it."
+				"Это довольно дорого, но оно того стоит."
 				""
-				"The armor protection amounts will be increasing as the armor tier increases too. Soon there will be some sick extra features about that"
+				"Показатели защиты брони будут расти по мере повышения уровня брони. Скоро по этому поводу появятся новые крутые функции."
 			]
 			id: "6F9393A8015541A8"
 			rewards: [{
@@ -410,7 +410,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Upgrade your armor!"
+			subtitle: "Улучшите свою броню!"
 			tasks: [{
 				id: "195D1CB694FDCF69"
 				item: "dml-refabricated:matter_condenser"
@@ -436,7 +436,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Craft a Soot Machine Casing."
+			subtitle: "Создайте корпус машины из сажи."
 			tasks: [{
 				id: "6C44B445254F46B8"
 				item: "dml-refabricated:machine_casing"
@@ -447,12 +447,12 @@
 		}
 		{
 			description: [
-				"To progress in Deep Mob Learning you will need Soot-covered Redstone. Those are created by punching redstone against a Coal Block."
+				"Для прогресса в Deep Mob Learning вам понадобится покрытый сажей редстоун. Он создается путем удара редстоуном по угольному блоку."
 				""
-				"This is a key ingredient."
+				"Это ключевой ингредиент."
 			]
 			id: "394DCDE468051067"
-			subtitle: "Rub your redstone on a block of coal."
+			subtitle: "Потрите редстоун о угольный блок."
 			tasks: [{
 				id: "5EEB04255651FBAE"
 				item: "dml-refabricated:soot_redstone"
@@ -501,7 +501,7 @@
 			}]
 			shape: "gear"
 			size: 4.0d
-			subtitle: "Complete all quests to obtain the trophy!"
+			subtitle: "Выполните все квесты, чтобы получить трофей!"
 			tasks: [{
 				id: "2F6B49B0F2C9ADEA"
 				title: "&bDeep Mob Learning 100%"
