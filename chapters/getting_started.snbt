@@ -12,7 +12,7 @@
 			description: [
 				"&bЭта глава &rпознакомит вас с &6основами &rсборки."
 				""
-				"&eAlexandria 6 &rпредлагает следующее:"
+				"&eAlexandria &rпредлагает следующее:"
 				""
 				"- &bИспытания"
 				"- &bИзучение модов"
@@ -38,10 +38,10 @@
 				disable_toast: true
 				icon: "kubejs:aof6_logo"
 				id: "25B2DFAFD351900E"
-				title: "Добро пожаловать в Alexandria 6"
+				title: "Добро пожаловать в Alexandria"
 				type: "checkmark"
 			}]
-			title: "&eДобро пожаловать в Alexandria 6"
+			title: "&eДобро пожаловать в Alexandria"
 			x: 7.5d
 			y: 2.0d
 		}
