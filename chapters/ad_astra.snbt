@@ -14,12 +14,12 @@
 	quests: [
 		{
 			description: [
-				"The phrase \"Ad Astra\" means \"To The Stars\" in ye old Latin. And while you cannot physically land on a star in this mod, you *can* explore the planets and moons amongst the stars that revolves around Earth."
+				"Фраза \"Ad Astra\" в переводе со старой латыни означает \"К звездам\". И хотя вы не можете физически приземлиться на звезду в этом моде, вы *можете* исследовать планеты и луны среди звезд, вращающихся вокруг Земли."
 				""
-				"The guidebook in Ad Astra has helpful information on the various mobs, resources, and structures you can find on the different planets."
+				"В путеводителе по Ad Astra содержится полезная информация о различных мобах, ресурсах и структурах, которые можно найти на разных планетах."
 			]
 			id: "112810B97BA58A9C"
-			subtitle: "To the Stars!"
+			subtitle: "К звездам!"
 			tasks: [{
 				id: "3897B33AFFD9F54F"
 				item: {
@@ -44,11 +44,11 @@
 				"3178EF6B62E2D458"
 			]
 			description: [
-				"After gathering all the requisite materials, you're finally ready to go into space!"
+				"Собрав все необходимые материалы, вы наконец-то готовы отправиться в космос!"
 				""
-				"Simply make a 3x3 square out of the launch pads and right click with your rocket to place it."
+				"Просто сделайте квадрат 3x3 из пусковых платформ и щелкните правой кнопкой мыши по ракете, чтобы разместить ее."
 				""
-				"Shift right click the rocket to open its GUI. There, you can fill its internal storage with your extra buckets of rocket fuel, oxygen, and launch pads. You can also fuel your rocket itself in this menu."
+				"Нажмите Shift + ПКМ по ракете, чтобы открыть ее интерфейс. Там вы можете заполнить внутреннее хранилище запасными ведрами с ракетным топливом, кислородом и пусковыми платформами. В этом же меню вы можете заправить саму ракету."
 			]
 			id: "0DED6D5C8A4C96B9"
 			rewards: [{
@@ -67,7 +67,7 @@
 			}]
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "You're finally ready to go to space! "
+			subtitle: "Вы наконец-то готовы отправиться в космос!"
 			tasks: [{
 				id: "0F9A475DDBED7F70"
 				item: {
@@ -77,7 +77,7 @@
 				}
 				type: "item"
 			}]
-			title: "To the Moon!"
+			title: "На Луну!"
 			x: -1.5d
 			y: 0.0d
 		}
@@ -87,9 +87,9 @@
 				"112C0C7C49867DE2"
 			]
 			description: [
-				"In order to propell your rocket into the air, it needs a base to launch from. You're able to place your rocket in the center and shift right click it to fill it with fuel"
+				"Чтобы запустить ракету в воздух, ей нужно основание. Вы можете поместить ракету в центр и нажать Shift + ПКМ, чтобы заправить ее топливом."
 				""
-				"Please note! Your launch pad does not come with you, so bring extra launch pads!"
+				"Пожалуйста, обратите внимание! Пусковая платформа не летит с вами, так что берите с собой запасные!"
 			]
 			hide_dependency_lines: true
 			id: "6E9A973B387987F7"
@@ -107,13 +107,13 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Getting Ready for Launch!"
+			subtitle: "Подготовка к запуску!"
 			tasks: [{
 				id: "10456FA8FB4B2BB3"
 				item: "ad_astra:launch_pad"
 				type: "item"
 			}]
-			title: "Launch Pad Setup"
+			title: "Установка пусковой платформы"
 			x: -1.5d
 			y: -1.5d
 		}
@@ -123,9 +123,9 @@
 				"112C0C7C49867DE2"
 			]
 			description: [
-				"Rockets can't exactly go into space without something propelling them into it. Oil naturally generated around the world allows you to refine it and turn it into suitable fuel for launching the rocket."
+				"Ракеты не могут отправиться в космос без топлива. Нефть, естественным образом генерируемая по всему миру, позволяет очищать ее и превращать в подходящее топливо для запуска ракеты."
 				""
-				"Please note! Fuel gets depleted when launching the rocket, so bringing extra fuel with you so you can get back home when you launch is extremely important! 6 buckets should be enough to go to space and back"
+				"Пожалуйста, обратите внимание! Топливо расходуется при запуске ракеты, поэтому крайне важно взять с собой запас, чтобы вернуться домой! 6 ведер должно хватить для полета в космос и обратно."
 			]
 			hide_dependency_lines: true
 			icon: "ad_astra:fuel_refinery"
@@ -144,7 +144,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Don't tell California"
+			subtitle: "Не говорите это Калифорнии"
 			tasks: [
 				{
 					id: "38A4E36F4439731A"
@@ -167,9 +167,9 @@
 				"112C0C7C49867DE2"
 			]
 			description: [
-				"Unlike our lovely planet Earth, the Moon (just like most of the other planets) does not have a breathable atmosphere. You'll need a space suit of some kind in order to be able to breathe."
+				"В отличие от нашей прекрасной планеты Земля, на Луне (как и на большинстве других планет) нет пригодной для дыхания атмосферы. Вам понадобится скафандр того или иного вида, чтобы иметь возможность дышать."
 				""
-				"In order to add oxygen to your suit, you'll need to use an Oxygen Loader."
+				"Чтобы заправить скафандр кислородом, вам понадобится Кислородный загрузчик."
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -194,7 +194,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Buzz Lightyear to Star Command"
+			subtitle: "Базз Лайтер вызывает Командование Звезд"
 			tasks: [
 				{
 					id: "4364CD32845DB97B"
@@ -241,7 +241,7 @@
 					type: "item"
 				}
 			]
-			title: "Space Suit"
+			title: "Скафандр"
 			x: -1.5d
 			y: 1.5d
 		}
@@ -251,9 +251,9 @@
 				"112C0C7C49867DE2"
 			]
 			description: [
-				"Breathing is an important part of surviving on planets and moons without a proper atmosphere. You can easily manufacture oxygen by supplying water to an Oxygen Loader"
+				"Дыхание — важная часть выживания на планетах и лунах без надлежащей атмосферы. Вы можете легко производить кислород, подавая воду в Кислородный загрузчик."
 				""
-				"Each bucket of water creates 50 mb of oxygen, so you'll need alot of water to make sufficient oxygen to survive on other planets"
+				"Каждое ведро воды создает 50 мб кислорода, поэтому вам понадобится много воды, чтобы произвести достаточно кислорода для выживания на других планетах."
 			]
 			hide_dependency_lines: true
 			icon: "ad_astra:oxygen_loader"
@@ -273,7 +273,7 @@
 				type: "item"
 			}]
 			shape: "circle"
-			subtitle: "Where'd the Hydrogen go???"
+			subtitle: "Куда делся водород???"
 			tasks: [
 				{
 					id: "6BCCBA22565698C8"
@@ -287,7 +287,7 @@
 					type: "item"
 				}
 			]
-			title: "Oxygen Generation"
+			title: "Генерация кислорода"
 			x: -0.5d
 			y: 1.0d
 		}
@@ -296,7 +296,7 @@
 				"112810B97BA58A9C"
 				"112C0C7C49867DE2"
 			]
-			description: ["Rockets are far too large for the vanilla crafting table, and theres only so much you can do with your bare hands. In order to construct your rockets, you'll need a NASA workbench."]
+			description: ["Ракеты слишком велики для обычного верстака, а голыми руками много не сделаешь. Чтобы строить свои ракеты, вам понадобится верстак NASA."]
 			hide_dependency_lines: true
 			id: "2DD1E268E40C2508"
 			rewards: [{
@@ -313,12 +313,13 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Its not hard, just rocket science!"
+			subtitle: "Это не сложно, это просто ракетостроение!"
 			tasks: [{
 				id: "686AE214D9240B7A"
 				item: "ad_astra:nasa_workbench"
 				type: "item"
 			}]
+			title: "Верстак NASA"
 			x: -0.5d
 			y: -1.0d
 		}
@@ -333,9 +334,9 @@
 				"4288B73FA65D8229"
 			]
 			description: [
-				"Once you've gathered plenty of desh, you can craft a tier 2 rocket in much the same fashion that you made the tier 1 rocket."
+				"Собрав достаточное количество дэша, вы сможете создать ракету 2-го уровня точно так же, как вы делали ракету 1-го уровня."
 				""
-				"Virtually everything is the same about how to prepare for this flight to Mars vs the Moon, except the rocket uses Desh parts instead of steel."
+				"Подготовка к полету на Марс практически ничем не отличается от полета на Луну, за исключением того, что в ракете используются детали из дэша вместо стали."
 			]
 			id: "1C711856985D4A81"
 			rewards: [{
@@ -354,7 +355,7 @@
 			}]
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "Beat Elon to it!"
+			subtitle: "Опереди Илона Маска!"
 			tasks: [{
 				id: "71D614D537FADCE9"
 				item: {
@@ -364,18 +365,18 @@
 				}
 				type: "item"
 			}]
-			title: "To Mars!"
+			title: "На Марс!"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0DED6D5C8A4C96B9"]
 			description: [
-				"Once you're on the Moon, there's plenty to do. One of the most important resources to gather while you're here is Desh."
+				"Оказавшись на Луне, вы найдете много интересного. Одним из самых важных ресурсов, который нужно здесь собрать, является дэш."
 				""
-				"Desh is a key resource in the next phase of technology in Ad Astra, and an aquiring a large amount of Desh will be necessary to getting to the next planet; Mars."
+				"Дэш — ключевой ресурс для следующего этапа технологий в Ad Astra, и приобретение большого его количества необходимо для того, чтобы добраться до следующей планеты — Марса."
 				""
-				"Please note! The outer quests in this phase are not required to unlock the rocket quest, but are highly encouraged to explore all the possible uses of Desh while on the moon!"
+				"Пожалуйста, обратите внимание! Дополнительные задания на этом этапе не обязательны для открытия задания на ракету, но крайне рекомендуется изучить все возможности использования дэша на Луне!"
 			]
 			id: "4F0886FF37E1101A"
 			rewards: [{
@@ -392,23 +393,23 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Dish, Desh, Ding"
+			subtitle: "Диш, дэш, динг"
 			tasks: [{
 				count: 20L
 				id: "5FC0EB271676835B"
 				item: "ad_astra:desh_ingot"
 				type: "item"
 			}]
-			title: "&6Moon Metal"
+			title: "&6Лунный металл"
 			x: 0.7500000000000071d
 			y: 0.010204081632650741d
 		}
 		{
 			dependencies: ["4F0886FF37E1101A"]
 			description: [
-				"Having to constantly replace the oxygen in your space suit can get annoying, so automating the distribution of oxygen in your living space is essential to long term living in space."
+				"Постоянная замена кислорода в скафандре может надоесть, поэтому автоматизация распределения кислорода в вашем жилом пространстве необходима для долгосрочного проживания в космосе."
 				""
-				"When supplied with enough oxygen in a completely closed environment, you can provide oxygen to said room, making the space livable to any living being (including you!)."
+				"При подаче достаточного количества кислорода в полностью закрытое помещение вы сможете обеспечить его воздухом, сделав пространство пригодным для любого живого существа (включая вас!)."
 			]
 			hide_dependency_lines: true
 			id: "58132755E921E778"
@@ -427,23 +428,24 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Seriously though, where's the Hydrogen???"
+			subtitle: "Серьезно, куда делся водород???"
 			tasks: [{
 				id: "44A56AA0B6264AE9"
 				item: "ad_astra:oxygen_distributor"
 				type: "item"
 			}]
+			title: "Распределитель кислорода"
 			x: 3.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["4F0886FF37E1101A"]
 			description: [
-				"Ahora que estás en la luna, puedes conseguir el material más importante de todo el mod; Queso."
+				"Теперь, когда вы на Луне, вы можете раздобыть самый важный материал во всем моде: Сыр."
 				""
-				"Queso es un material comestible que no tiene mucho uso dentro de \"Ad Astra\", pero es sabroso y el alimento más fácil de encontrar en la Luna."
+				"Сыр — это съедобный материал, который не имеет особого применения в Ad Astra, но он вкусный и является самой простой едой, которую можно найти на Луне."
 				""
-				"TL;DR cheese good. eat some."
+				"Короче говоря: сыр — это хорошо. Поешьте его."
 			]
 			hide_dependency_lines: true
 			id: "6582513D8887DF04"
@@ -462,23 +464,23 @@
 				}
 				type: "item"
 			}]
-			subtitle: "¡Queso Delicioso!"
+			subtitle: "Вкусный сыр!"
 			tasks: [{
 				count: 16L
 				id: "485EA3679EAAA035"
 				item: "ad_astra:cheese"
 				type: "item"
 			}]
-			title: "Mucho Queso"
+			title: "Много сыра"
 			x: 4.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["4F0886FF37E1101A"]
 			description: [
-				"Once you have access to Desh, you're able to auotmate a few processes that make your life easier. One of those being energy generation."
+				"Получив доступ к дэшу, вы сможете автоматизировать несколько процессов, которые облегчат вам жизнь. Один из них — выработка энергии."
 				""
-				"The Solar Panel generates energy when in sunlight. The amount it generates varies depending on the planet/moon's distance from the sun and how much fog covers that celestial body."
+				"Солнечная панель генерирует энергию под воздействием солнечного света. Количество вырабатываемой энергии зависит от расстояния планеты/луны до Солнца и от того, насколько сильно небесное тело затянуто туманом."
 			]
 			hide_dependency_lines: true
 			id: "4288B73FA65D8229"
@@ -497,18 +499,19 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Photosynthe!... wait thats not right..."
+			subtitle: "Фотосинтез!... погодите, это не то..."
 			tasks: [{
 				id: "278C6932C7FA6742"
 				item: "ad_astra:solar_panel"
 				type: "item"
 			}]
+			title: "Солнечная панель"
 			x: 2.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["4F0886FF37E1101A"]
-			description: ["Desh cables are a more advanced version of the steel cables, capable of transfering 256 ⚡/t"]
+			description: ["Кабели из дэша — это более продвинутая версия стальных кабелей, способная передавать 256 ⚡/т."]
 			hide_dependency_lines: true
 			id: "47D456E43D42EBC9"
 			optional: true
@@ -526,23 +529,23 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Dish, Desh, Dash"
+			subtitle: "Диш, дэш, дэш"
 			tasks: [{
 				count: 12L
 				id: "76CA4925C14F42BD"
 				item: "ad_astra:desh_cable"
 				type: "item"
 			}]
-			title: "Desh Distribution"
+			title: "Распределение энергии"
 			x: 2.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["4F0886FF37E1101A"]
 			description: [
-				"The rover is a useful machine that allows the user to traverse over the strange terrain of the other celestial bodies."
+				"Ровер — это полезная машина, которая позволяет игроку перемещаться по пересеченной местности других небесных тел."
 				""
-				"It requires fuel to run, and can accept 2 passengers; a driver and a passenger."
+				"Для работы требуется топливо, ровер вмещает 2 человек: водителя и пассажира."
 			]
 			hide_dependency_lines: true
 			id: "2CDAB93BD674197F"
@@ -561,7 +564,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Mark Rober Minecraft Mod when?"
+			subtitle: "Когда выйдет мод Марка Робера для Майнкрафта?"
 			tasks: [{
 				id: "7B576F4EBEB08269"
 				item: {
@@ -571,13 +574,13 @@
 				}
 				type: "item"
 			}]
-			title: "Space Rover"
+			title: "Космический ровер"
 			x: 3.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["4F0886FF37E1101A"]
-			description: ["Desh Pipes are useful for transfering fluids over some distance. When paired with the Fluid Pump, it can be helpful in automating the production of oxygen."]
+			description: ["Трубы из дэша полезны для передачи жидкостей на некоторое расстояние. В паре с Жидкостным насосом они могут помочь в автоматизации производства кислорода."]
 			hide_dependency_lines: true
 			icon: "ad_astra:desh_fluid_pipe"
 			id: "1384C1D8BD79C6D0"
@@ -596,7 +599,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Dish, Desh, Drip"
+			subtitle: "Диш, дэш, дрип"
 			tasks: [
 				{
 					count: 12L
@@ -610,13 +613,13 @@
 					type: "item"
 				}
 			]
-			title: "Desh Draining"
+			title: "Трубопровод из дэша"
 			x: 4.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["1C711856985D4A81"]
-			description: ["A new material exclusive to Mars that you'll need to progress from here is Ostrum. Gather plenty of it, you'll need it for your rocket and to upgrade much of your current machinery"]
+			description: ["Острум — это новый материал, эксклюзивный для Марса, который понадобится вам для дальнейшего продвижения. Соберите его побольше, он понадобится для вашей ракеты и для улучшения большей части вашего текущего оборудования."]
 			id: "760572711CF727BB"
 			rewards: [{
 				id: "250B49FA04316495"
@@ -632,13 +635,13 @@
 				}
 				type: "item"
 			}]
-			subtitle: "On goes Ostrum"
+			subtitle: "Острум идет в дело"
 			tasks: [{
 				id: "275AD0703F620408"
 				item: "ad_astra:ostrum_ingot"
 				type: "item"
 			}]
-			title: "Mars Metal"
+			title: "Металл Марса"
 			x: 5.282312925170075d
 			y: -0.017006802721095227d
 		}
@@ -653,9 +656,9 @@
 				"6A298F887D96C0E8"
 			]
 			description: [
-				"You know the deal by now. Gather enough Ostrum to craft the Tier 3 rocket."
+				"Вы уже знаете, что делать. Соберите достаточно острума, чтобы создать ракету 3-го уровня."
 				""
-				"Please note! Travel to the hotter planets requires a netherite space suit or fire resistance or you will burn up and die."
+				"Пожалуйста, обратите внимание! Путешествие на более жаркие планеты требует незеритового скафандра или эффекта огнестойкости, иначе вы сгорите и погибнете."
 			]
 			id: "6E4D99BBFFDFB961"
 			rewards: [{
@@ -674,7 +677,7 @@
 			}]
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "Sizzling Space"
+			subtitle: "Раскаленный космос"
 			tasks: [{
 				id: "0ED147E69FC78915"
 				item: {
@@ -684,13 +687,13 @@
 				}
 				type: "item"
 			}]
-			title: "To the Hotter Planets!"
+			title: "К более жарким планетам!"
 			x: 7.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["760572711CF727BB"]
-			description: ["A simple block that can detect whether or not the area has oxygen. Useful for making sure your air lock is working."]
+			description: ["Простой блок, который может определить, есть ли в данной зоне кислород. Полезен для проверки работоспособности вашего воздушного шлюза."]
 			hide_dependency_lines: true
 			id: "2223D0AFDF5C10FB"
 			optional: true
@@ -708,21 +711,22 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Guess we'll never find the hydrogen"
+			subtitle: "Похоже, мы никогда не найдем водород"
 			tasks: [{
 				id: "79C7AC3F6ABEE10E"
 				item: "ad_astra:oxygen_sensor"
 				type: "item"
 			}]
+			title: "Датчик кислорода"
 			x: 6.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["760572711CF727BB"]
 			description: [
-				"While the normal space suit works great on the planets with a climate similar to Earth, other celestial bodies closer to the Sun are much hotter, and thus require better equipment to survive."
+				"В то время как обычный скафандр отлично работает на планетах с климатом, похожим на земной, другие небесные тела, находящиеся ближе к Солнцу, гораздо горячее, и поэтому для выживания на них требуется лучшее снаряжение."
 				""
-				"The Netherite Space Suit is the best way to survive on the hotter planets, but you can also avoid heat damage by drinking a fire resistance potion."
+				"Незеритовый скафандр — лучший способ выжить на жарких планетах, но вы также можете избежать теплового урона, выпив зелье огнестойкости."
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -747,7 +751,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Come in star command"
+			subtitle: "Прием, Командование Звезд"
 			tasks: [
 				{
 					id: "37582EAB850A7B72"
@@ -794,16 +798,16 @@
 					type: "item"
 				}
 			]
-			title: "Netherite Space Suit"
+			title: "Незеритовый скафандр"
 			x: 7.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["760572711CF727BB"]
 			description: [
-				"Making more efficient fuel starts with the cryo freezer. You can use ice shards you find while mining on the Moon or Mars, or you can just use regular packed ice."
+				"Создание более эффективного топлива начинается с Криозамораживателя. Вы можете использовать ледяные осколки, которые найдете при добыче ресурсов на Луне или Марсе, или просто использовать обычный плотный лед."
 				""
-				"This fuel is 3 times more efficient than normal rocket fuel, certainly an upgrade from having to get 6 buckets of fuel just to make sure you can make it home."
+				"Это топливо в 3 раза эффективнее обычного ракетного топлива, и это определенно лучше, чем таскать с собой 6 ведер топлива только для того, чтобы вернуться домой."
 			]
 			hide_dependency_lines: true
 			id: "1C2AAE8F4E119084"
@@ -821,18 +825,19 @@
 				}
 				type: "item"
 			}]
-			subtitle: "So *this* is what Walt Disney used.."
+			subtitle: "Так вот что использовал Уолт Дисней..."
 			tasks: [{
 				id: "39D1927E6B54D5D6"
 				item: "ad_astra:cryo_freezer"
 				type: "item"
 			}]
+			title: "Криозамораживатель"
 			x: 8.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["760572711CF727BB"]
-			description: ["The Ostrum fluid pipe acts in much the same way that the Desh pipe does, but with a significantly increased transfer rate."]
+			description: ["Жидкостная труба из острума работает так же, как и труба из дэша, но со значительно увеличенной скоростью передачи."]
 			hide_dependency_lines: true
 			id: "6D01C247A8864071"
 			optional: true
@@ -850,21 +855,22 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Overclocked Ostrum"
+			subtitle: "Разогнанный острум"
 			tasks: [{
 				id: "0BB137802A1EADAE"
 				item: "ad_astra:ostrum_fluid_pipe"
 				type: "item"
 			}]
+			title: "Труба из острума"
 			x: 6.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["760572711CF727BB"]
 			description: [
-				"This useful block can be used to store and redistrubute energy. It both accepts and automatically pushes energy to adjacent energy storages."
+				"Этот полезный блок можно использовать для хранения и перераспределения энергии. Он как принимает, так и автоматически передает энергию в соседние хранилища."
 				""
-				"Right clicking with an item that stores energy places the item onto the Energizer to charge it."
+				"Щелчок правой кнопкой мыши по Энерджайзеру предметом, хранящим энергию, помещает этот предмет в него для зарядки."
 			]
 			hide_dependency_lines: true
 			id: "5A2581CBAB21D071"
@@ -882,21 +888,22 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Electrifying Elements"
+			subtitle: "Электризующие элементы"
 			tasks: [{
 				id: "61DAE68312869B3F"
 				item: "ad_astra:energizer"
 				type: "item"
 			}]
+			title: "Энерджайзер"
 			x: 7.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["760572711CF727BB"]
 			description: [
-				"Cryo fuel is an innovation in fuel technology, allowing you to get fuel from easier to find chilly resources, like ice."
+				"Криотопливо — это инновация в технологии топлива, позволяющая получать его из более доступных холодных ресурсов, таких как лед."
 				""
-				"While normal rocket fuel requires 3 buckets in order to successfully make it to your destination, you only need a 1 bucket of cryo fuel to make a successful space flight. Make sure you take 2, one for the trip and one for the way back!"
+				"В то время как для обычного ракетного топлива требуется 3 ведра, чтобы успешно добраться до места назначения, вам понадобится всего 1 ведро криотоплива для успешного космического полета. Обязательно возьмите 2: одно для полета туда и одно для пути назад!"
 			]
 			hide_dependency_lines: true
 			id: "6A298F887D96C0E8"
@@ -914,14 +921,14 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Freezing Good Fuel"
+			subtitle: "Чертовски холодное топливо"
 			tasks: [{
 				count: 2L
 				id: "77961F4E08250EF7"
 				item: "ad_astra:cryo_fuel_bucket"
 				type: "item"
 			}]
-			title: "Cryo Fuel"
+			title: "Криотопливо"
 			x: 8.5d
 			y: 1.0d
 		}
@@ -930,7 +937,7 @@
 				"6114CC6BE5D2627F"
 				"40CB98FD334EB3CE"
 			]
-			description: ["The final planets in Ad Astra, weirdly enough, don't require any special equipment to survive. Simply gather enough Calorite and make your way to Glacio"]
+			description: ["Для выживания на последних планетах в Ad Astra, как ни странно, не требуется никакого специального оборудования. Просто соберите достаточно калорита и отправляйтесь на Глацио."]
 			id: "6E8BF9F8A67D1B66"
 			rewards: [{
 				id: "4E618268B0A93696"
@@ -948,7 +955,7 @@
 			}]
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "Beyond the Milky Way"
+			subtitle: "За пределами Млечного Пути"
 			tasks: [{
 				id: "32A03D8D447B4DE3"
 				item: {
@@ -958,13 +965,13 @@
 				}
 				type: "item"
 			}]
-			title: "To ... Beyond?"
+			title: "В... бесконечность?"
 			x: 12.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6E4D99BBFFDFB961"]
-			description: ["Calorite is the final planetary metal you can find in Ad Astra. With it, you can upgrade your space suit one more time to add jet propulsion, and to create the fourth tier of the rocket to allow you to travel to other solar systems."]
+			description: ["Калорит — это последний планетарный металл, который вы можете найти в Ad Astra. С его помощью вы сможете еще раз улучшить свой скафандр, добавив реактивный двигатель, и создать ракету четвертого уровня, которая позволит вам путешествовать в другие солнечные системы."]
 			id: "6114CC6BE5D2627F"
 			rewards: [{
 				id: "7EFC219087F08ABE"
@@ -980,20 +987,20 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Pretty red ingot go brrr"
+			subtitle: "Красивый красный слиток делает вжжж"
 			tasks: [{
 				count: 20L
 				id: "2E8BDD166863C9C2"
 				item: "ad_astra:calorite_ingot"
 				type: "item"
 			}]
-			title: "&cMercury Metal"
+			title: "&cМеталл Меркурия"
 			x: 10.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["112810B97BA58A9C"]
-			description: ["Steel is the basis of your pre intragalactic technology. With it, you can make all of the equipment and rockets required to go to space."]
+			description: ["Сталь — это основа ваших технологий до начала межгалактических путешествий. С ее помощью вы сможете изготовить все оборудование и ракеты, необходимые для выхода в космос."]
 			id: "112C0C7C49867DE2"
 			rewards: [{
 				id: "68AC4A8CFA4392A5"
@@ -1009,25 +1016,25 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Yes, more steel"
+			subtitle: "Да, еще больше стали"
 			tasks: [{
 				count: 20L
 				id: "2CF8CFD14DD624D0"
 				item: "modern_industrialization:steel_ingot"
 				type: "item"
 			}]
-			title: "&8Earth Metal"
+			title: "&8Металл Земли"
 			x: -3.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["112C0C7C49867DE2"]
 			description: [
-				"Ad Astra adds 2 variants of an energy transfering cable and a fluid transfering pipe. The steel variant of the energy cable transfers 64 ⚡/t, which is more than enough to get started."
+				"Ad Astra добавляет 2 варианта кабеля для передачи энергии и трубу для передачи жидкости. Стальной вариант энергетического кабеля передает 64 ⚡/т, чего более чем достаточно для начала."
 				""
-				"The cables and pipes in Ad Astra are really neat. Not because I wrote the functionality, definitely not because of that. They're just cool okay. >:("
+				"Кабели и трубы в Ad Astra действительно крутые. И не потому, что это я написал их функционал, совсем не поэтому. Они просто классные, ясно? >:("
 				""
-				"- CodexAdrian"
+				"— CodexAdrian"
 			]
 			hide_dependency_lines: true
 			id: "3178EF6B62E2D458"
@@ -1046,23 +1053,23 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Zip Zap Steel"
+			subtitle: "Зип-зап сталь"
 			tasks: [{
 				count: 12L
 				id: "31A7218BE3AFE490"
 				item: "ad_astra:steel_cable"
 				type: "item"
 			}]
-			title: "Surging Steel"
+			title: "Энергичная сталь"
 			x: -2.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["6114CC6BE5D2627F"]
 			description: [
-				"The most advanced version of the space suit, the Jet Suit offers even more protection than the netherite suit, while providing additional benefits, like a jetpack for flight."
+				"Самая продвинутая версия космического костюма — реактивный скафандр — обеспечивает еще большую защиту, чем незеритовый, и при этом дает дополнительные преимущества, такие как реактивный ранец для полета."
 				""
-				"The Jet Suit must be charged in order to propell you into the air, and can be easily charged in the Energizer."
+				"Реактивный скафандр должен быть заряжен, чтобы поднимать вас в воздух; его можно легко зарядить в Энерджайзере."
 			]
 			hide_dependency_lines: true
 			id: "40CB98FD334EB3CE"
@@ -1080,7 +1087,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Star command, do you read me??"
+			subtitle: "Звездное командование, как слышно??"
 			tasks: [
 				{
 					id: "0EE7478528103B2C"
@@ -1127,7 +1134,7 @@
 					type: "item"
 				}
 			]
-			title: "Jet Suit"
+			title: "Реактивный скафандр"
 			x: 12.0d
 			y: -1.5d
 		}
@@ -1188,10 +1195,10 @@
 			}]
 			shape: "gear"
 			size: 4.0d
-			subtitle: "Complete all quests to obtain the trophy!"
+			subtitle: "Выполните все задания, чтобы получить трофей!"
 			tasks: [{
 				id: "29D26752DC1137E6"
-				title: "Complete Ad Astra"
+				title: "Пройти Ad Astra"
 				type: "checkmark"
 			}]
 			title: "&cAd Astra 100%"
