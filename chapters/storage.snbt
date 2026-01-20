@@ -25,13 +25,13 @@
 				}
 				type: "item"
 			}]
-			subtitle: "A looters choice of storage."
+			subtitle: "Выбор добытчика для хранения."
 			tasks: [{
 				id: "4E720A38A6D9CFE6"
 				item: "ironchests:iron_chest"
 				type: "item"
 			}]
-			title: "Bigger Chests"
+			title: "Большие сундуки"
 			x: 5.0d
 			y: -2.5d
 		}
@@ -52,13 +52,13 @@
 				}
 				type: "item"
 			}]
-			subtitle: "May the chests be shining."
+			subtitle: "Пусть сундуки сияют."
 			tasks: [{
 				id: "3D1ED067C24B1134"
 				item: "ironchests:gold_chest"
 				type: "item"
 			}]
-			title: "Even bigger chests"
+			title: "Еще более большие сундуки"
 			x: 5.0d
 			y: -1.5d
 		}
@@ -140,9 +140,9 @@
 		{
 			dependencies: ["523A049CF07AD75B"]
 			description: [
-				"Bronze barrels can used to store and move 32 stacks of one item."
+				"Бронзовые бочки могут использоваться для хранения и перемещения 32 стаков одного предмета."
 				""
-				"Amount of stacks allowed increase for each tier of barrel."
+				"Количество доступных стаков увеличивается с каждым тиром бочки."
 			]
 			id: "701620712CC907D7"
 			rewards: [{
@@ -159,7 +159,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Another storage drawer in disguise."
+			subtitle: "Еще один ящик для хранения под прикрытием."
 			tasks: [{
 				id: "00779B056A43DEEA"
 				item: "modern_industrialization:bronze_barrel"
@@ -296,10 +296,10 @@
 		{
 			dependencies: ["523A049CF07AD75B"]
 			description: [
-				"Bronze Tanks can store up to 4 buckets each."
-				"You can use that to interact with machines and can also be placed in the world."
+				"Бронзовые резервуары могут хранить до 4 ведер каждый."
+				"Вы можете использовать их для взаимодействия с машинами, а также размещать в мире."
 				""
-				"TIP: Tanks are stackable if containing the same fluid."
+				"СОВЕТ: Резервуары стакаются, если содержат одну и ту же жидкость."
 			]
 			id: "3C5A8EA9636BF12F"
 			rewards: [{
@@ -316,7 +316,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Right-click with buckets or other tanks to transfer fluids."
+			subtitle: "ПКМ с ведрами или другими резервуарами для передачи жидкостей."
 			tasks: [{
 				id: "0E647B945E58B453"
 				item: "modern_industrialization:bronze_tank"
@@ -453,19 +453,19 @@
 		{
 			dependencies: ["6F2E92752228528C"]
 			description: [
-				"Bag Mode:"
+				"Режим сумки:"
 				""
-				"- In bag mode, the dank acts like a backpack."
+				"- В режиме сумки Dank действует как рюкзак."
 				""
-				"- Sneaking while hovering the tooltip will show contained items and the currently assigned keybind."
+				"- Если зажать Shift при наведении на предмет, отобразится содержимое и текущая назначенная клавиша."
 				""
-				"Construction Mode:"
+				"Режим строительства:"
 				""
-				"- While in construction mode, the dank can no longer be placed down and will gain the enchantment glow to show that it's in construction mode."
+				"- В режиме строительства Dank больше нельзя поставить на землю, и он получит эффект зачарования, указывающий на этот режим."
 				""
-				"- While in construction mode, the dank storage has a selected slot, sneak - mousewheel will change the selected slot, pickblock functionality also works as well."
+				"- В режиме строительства в хранилище Dank выбран определенный слот; Shift + колесико мыши меняет выбранный слот, также работает функция выбора блока (pickblock)."
 				""
-				"- Right-clicking while the dank is in this state will attempt to use the currently selected item whether it be a block, a snowball, or even shears. Even potions and most food items can be consumed this way."
+				"- ПКМ в этом состоянии попытается использовать выбранный предмет, будь то блок, снежок или даже ножницы. Таким образом можно употреблять даже зелья и большинство видов еды."
 			]
 			id: "08812AFA81E0361B"
 			rewards: [{
@@ -482,7 +482,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Miner's pickup tool of choice."
+			subtitle: "Лучший инструмент шахтера для сбора ресурсов."
 			tasks: [{
 				id: "5AC950AE1240C497"
 				item: "dankstorage:dank_1"
@@ -665,7 +665,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Right click with buckets or other tanks to transfer fluids."
+			subtitle: "ПКМ с ведрами или другими резервуарами для передачи жидкостей."
 			tasks: [{
 				id: "2D8DB2A4B2A7CCBE"
 				item: "techreborn:basic_tank_unit"
@@ -691,13 +691,13 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Storage drawer in disguise."
+			subtitle: "Замаскированный ящик для хранения."
 			tasks: [{
 				id: "14EAC75C541EAC9F"
 				item: "techreborn:crude_storage_unit"
 				type: "item"
 			}]
-			title: "Crude Storage Unit"
+			title: "Простое хранилище"
 			x: 8.0d
 			y: -3.5d
 		}
@@ -878,14 +878,14 @@
 		}
 		{
 			description: [
-				"Barrels are used for mass storage of the same item. Shows count and item on front. "
+				"Бочки используются для массового хранения одного и того же предмета. Спереди отображается количество и сам предмет."
 				""
-				"Tanks are used for high amounts of fluid storage."
-				"Can be used as a buffer and is movable with contents intact on break."
-				"Tanks are stackable if containing the same fluid."
+				"Резервуары используются для хранения большого количества жидкостей."
+				"Могут использоваться в качестве буфера; сохраняют содержимое при перемещении."
+				"Резервуары стакаются, если содержат одну и ту же жидкость."
 			]
 			id: "523A049CF07AD75B"
-			subtitle: "Barrels and tanks of different sizes. You know what they are.. They have no disguises."
+			subtitle: "Бочки и резервуары разных размеров. Вы и так знаете, что это такое.. У них нет секретов."
 			tasks: [{
 				id: "7279364B4E1843D4"
 				title: "Modern Industrialization"
@@ -896,12 +896,12 @@
 		}
 		{
 			description: [
-				"Storage units are single item, mass storage devices with an inventory count on the face."
+				"Блоки хранения — это устройства для массового хранения одного типа предметов с индикатором количества на передней панели."
 				""
-				"Tank units store liquids.. that's about it."
+				"Резервуары хранят жидкости.. на этом всё."
 				""
-				"Battery Box, MFE, MFSU and Interdimensional SU are energy storage devices."
-				"You can view their inventory and use the slot they have to charge devices."
+				"Аккумуляторный ящик, MFE, MFSU и Межпространственный SU — это устройства для хранения энергии."
+				"Вы можете просматривать их содержимое и использовать имеющийся слот для зарядки устройств."
 			]
 			id: "64082742D6539923"
 			tasks: [{
@@ -914,19 +914,19 @@
 		}
 		{
 			description: [
-				"Backpacks for increased inventory"
+				"Рюкзаки для расширения инвентаря."
 				""
-				"Chests for mass storage"
+				"Сундуки для массового хранения."
 				""
-				"Barrels for buffers in automation or so you can access its inventory in tight spots."
+				"Бочки в качестве буферов в автоматизации или для доступа к инвентарю в труднодоступных местах."
 				""
-				"Danks for automatic portable storage and dynamic inventory block placement."
+				"Danks для автоматического портативного хранения и динамического размещения блоков из инвентаря."
 			]
 			id: "6F2E92752228528C"
-			subtitle: "Learn about the basics of storage."
+			subtitle: "Узнайте об основах хранения."
 			tasks: [{
 				id: "4A26CDEE07DCD4B8"
-				title: "Basic Storage"
+				title: "Базовое хранение"
 				type: "checkmark"
 			}]
 			x: 5.0d
@@ -949,7 +949,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Stores energy and charges items. "
+			subtitle: "Хранит энергию и заряжает предметы."
 			tasks: [{
 				id: "2901054D6A1E5169"
 				item: "techreborn:low_voltage_su"
@@ -1034,9 +1034,9 @@
 			y: -0.5d
 		}
 		{
-			description: ["An Indrevian version of an energy storage device."]
+			description: ["Версия устройства для хранения энергии от Industrial Revolution."]
 			id: "679464B1F04B106E"
-			subtitle: "Let the energy revolutionize!"
+			subtitle: "Пусть энергия совершит революцию!"
 			tasks: [{
 				id: "0FB2E00F0013C475"
 				title: "Industrial Revolution"
@@ -1062,7 +1062,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Stores energy and charges items. "
+			subtitle: "Хранит энергию и заряжает предметы."
 			tasks: [{
 				id: "7659005A22D97F38"
 				item: "indrev:lazuli_flux_container_mk1"
@@ -1322,5 +1322,5 @@
 			y: 1.5d
 		}
 	]
-	title: "Storage"
+	title: "Хранение"
 }
