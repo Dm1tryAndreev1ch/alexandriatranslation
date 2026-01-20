@@ -10,15 +10,15 @@
 	quests: [
 		{
 			description: [
-				"&bThis chapter &rwill &6introduce &ryou to the basics of the pack."
+				"&bЭта глава &rпознакомит вас с &6основами &rсборки."
 				""
-				"&eAll of Fabric 6 &roffers the following:"
+				"&eAlexandria 6 &rпредлагает следующее:"
 				""
-				"- &bChallenges"
-				"- &bLearning Mods"
-				"- &bAdventuring"
+				"- &bИспытания"
+				"- &bИзучение модов"
+				"- &bПриключения"
 				""
-				"&6The adventures are ahead&r!"
+				"&6Приключения ждут впереди&r!"
 			]
 			icon: "kubejs:aof6_logo"
 			id: "175F5611FB7716A4"
@@ -33,27 +33,27 @@
 			}]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "A Whole New World!"
+			subtitle: "Совершенно новый мир!"
 			tasks: [{
 				disable_toast: true
 				icon: "kubejs:aof6_logo"
 				id: "25B2DFAFD351900E"
-				title: "Welcome to All of Fabric 6"
+				title: "Добро пожаловать в Alexandria 6"
 				type: "checkmark"
 			}]
-			title: "&eWelcome to All of Fabric 6"
+			title: "&eДобро пожаловать в Alexandria 6"
 			x: 7.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["175F5611FB7716A4"]
 			description: [
-				"&bExcavate &ris by default bound to keybind \"&6Grave&r\""
+				"&bВыкопать область &rпо умолчанию привязано к клавише \"&6Grave&r\""
 				""
-				"You can change this keybind &rby going into &6options &rand change the &bFTB Ultimine &rkeybinds."
+				"Вы можете изменить эту клавишу &rперейдя в &6настройки &rи изменив привязки клавиш &bFTB Ultimine&r."
 			]
 			id: "7050DE96E151D1D1"
-			subtitle: "Ores Be Gone!"
+			subtitle: "Руды, исчезните!"
 			tasks: [{
 				icon: {
 					Count: 1b
@@ -63,47 +63,47 @@
 					}
 				}
 				id: "520CE3437306804D"
-				title: "Excavate"
+				title: "Выкопать область"
 				type: "checkmark"
 			}]
-			title: "&bExcavate"
+			title: "&bВыкопать область"
 			x: 10.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["175F5611FB7716A4"]
 			description: [
-				"Mods are split into 4 categories:"
+				"Моды разделены на 4 категории:"
 				""
-				"- &bTechnology"
-				"- &bMagic"
-				"- &bUtilities"
-				"- &bLogistics"
+				"- &bТехнологии"
+				"- &bМагия"
+				"- &bУтилиты"
+				"- &bЛогистика"
 				""
-				"Respectively, &6each chapter will guide you through progression&r."
+				"Соответственно, &6каждая глава проведёт вас через прогрессию&r."
 				""
-				"Certain chapters will have &btips and tricks &ron how to ease your adventures with useful trinkets and gadgets."
+				"Некоторые главы будут содержать &bсоветы и хитрости &rо том, как облегчить ваши приключения с помощью полезных безделушек и гаджетов."
 			]
 			icon: "techreborn:wrench"
 			id: "257EAB9268907E1D"
-			subtitle: "Feel lost? Do not worry!"
+			subtitle: "Чувствуете себя потерянным? Не волнуйтесь!"
 			tasks: [{
 				id: "60A1EB763CF25699"
-				title: "Learning Mods"
+				title: "Изучение модов"
 				type: "checkmark"
 			}]
-			title: "&9Learning Mods"
+			title: "&9Изучение модов"
 			x: 5.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["175F5611FB7716A4"]
 			description: [
-				"Dont feel like &6running &rthousands of blocks for that favorite biome of yours?"
+				"Не хотите &6бегать &rтысячи блоков в поисках любимого биома?"
 				""
-				"The &bNature's Compass &rsaves your day!"
+				"&bКомпас природы &rспасёт ваш день!"
 				""
-				"&6Search for the biome of choice, &rclap 3 times and start running!"
+				"&6Найдите биом на выбор, &rхлопните 3 раза в ладоши и начинайте бежать!"
 			]
 			icon: {
 				Count: 1b
@@ -120,47 +120,47 @@
 				}
 				type: "item"
 			}]
-			subtitle: "If you truly love nature, you will find beauty everywhere."
+			subtitle: "Если вы по-настоящему любите природу, вы найдёте красоту повсюду."
 			tasks: [{
 				id: "1E78FE3CAE735910"
-				title: "Where to settle down?"
+				title: "Где поселиться?"
 				type: "checkmark"
 			}]
-			title: "&aWhere to settle down?"
+			title: "&aГде поселиться?"
 			x: 5.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["175F5611FB7716A4"]
 			description: [
-				"How to use an item? &6Hover over the item in REI &rand press &b\"U\" &rthis will show you the uses, pay attention to the tabs."
+				"Как использовать предмет? &6Наведите на предмет в REI &rи нажмите &b\"U\" &rэто покажет вам применения, обратите внимание на вкладки."
 				""
-				"Dont know how to craft an item? &6Hover over the item &rand press &b\"R\"&r."
+				"Не знаете, как скрафтить предмет? &6Наведите на предмет &rи нажмите &b\"R\"&r."
 				""
-				"Sometimes you have to start out processing a nugget, instead of &ban ingot &ror &ba block."
+				"Иногда нужно начать с обработки самородка, вместо &bслитка &rили &bблока&r."
 				""
-				"&6You may need to look at the recipes &rfor the material's respective &bnugget &ror sometimes even &bpowders&r."
+				"&6Возможно, вам придётся посмотреть рецепты &rдля соответствующего &bсамородка &rматериала или иногда даже &bпорошков&r."
 			]
 			icon: "mcwtrpdoors:print_paper"
 			id: "2AB91711E9E7B298"
-			subtitle: "A recipe is a story that ends with a good meal."
+			subtitle: "Рецепт - это история, которая заканчивается хорошей едой."
 			tasks: [{
 				id: "0657F4EC97E5ACAC"
-				title: "I know how to use U and R"
+				title: "Я знаю, как использовать U и R"
 				type: "checkmark"
 			}]
-			title: "&cRecipe Wizardry"
+			title: "&cМастерство рецептов"
 			x: 7.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["175F5611FB7716A4"]
 			description: [
-				"The &bTraveler's Backpack &rcan provide about 45 inventory slots and 2 fluid tanks, which each can store up to 4 buckets of fluid or even 16 bottles of potions."
+				"&bРюкзак путешественника &rможет вместить около 45 слотов инвентаря и 2 резервуара для жидкостей, каждый из которых может вместить до 4 вёдер жидкости или даже 16 бутылок зелий."
 				""
-				"All &binventory slots &rand &btanks &6can be accessed via external pipes&r."
+				"Ко всем &bслотам инвентаря &rи &bрезервуарам &6можно получить доступ через внешние трубы&r."
 				""
-				"&bThe Backpack &ralso &6provides special buttons &r- &bsort, quick stack &rand &btransfer &rto manage inventory!"
+				"&bРюкзак &rтакже &6предоставляет специальные кнопки &r- &bсортировка, быстрое складывание &rи &bпередача &rдля управления инвентарём!"
 			]
 			id: "5A382E13722186FA"
 			rewards: [{
@@ -177,7 +177,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Inventory cramped? Fear not!"
+			subtitle: "Инвентарь переполнен? Не бойтесь!"
 			tasks: [{
 				id: "418AF38E1BF686D8"
 				item: {
@@ -187,30 +187,30 @@
 				}
 				type: "item"
 			}]
-			title: "&3Don't be a tourist, be a traveler"
+			title: "&3Не будьте туристом, станьте путешественником"
 			x: 10.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["175F5611FB7716A4"]
 			description: [
-				"&b- Fancy attack animations"
-				"This mod includes several one-handed, two-handed and dual wielded attack animation resources."
+				"&b- Красивые анимации атак"
+				"Этот мод включает несколько ресурсов анимаций атак одноручным, двуручным оружием и для двух рук."
 				""
-				"&b- Accurate weapon collision detection"
-				"No more pixel hunting with your cursor, you can now just swing your weapon and hit whatever is in the way. Enjoy playing in third person view."
+				"&b- Точное обнаружение столкновений с оружием"
+				"Больше не нужно охотиться за пикселями курсором, теперь вы можете просто размахивать оружием и попадать по всему, что на пути. Наслаждайтесь игрой от третьего лица."
 				""
-				"&b- Natural look and feel"
-				"Attacks have an upswing phase before the hit is actually performed, like in real life."
+				"&b- Естественный вид и ощущения"
+				"Атаки имеют фазу замаха перед фактическим ударом, как в реальной жизни."
 				""
-				"&b- Weapon combos"
-				"Some weapons have a sequence of different attacks."
+				"&b- Комбо оружия"
+				"Некоторое оружие имеет последовательность различных атак."
 				""
-				"&b- Dual wield any combination"
-				"Dual wield any set of one handed weapons! Use the attack hotkey to alternately attack with main-hand and off-hand."
+				"&b- Двойное владение любой комбинацией"
+				"Используйте две руки с любым набором одноручного оружия! Используйте клавишу атаки для поочередной атаки основной и дополнительной рукой."
 				""
-				"&b- Hold to attack"
-				"Hold the attack hotkey to spam attacks on cooldown."
+				"&b- Удерживайте для атаки"
+				"Удерживайте клавишу атаки, чтобы спамить атаки по перезарядке."
 			]
 			icon: {
 				Count: 1b
@@ -220,13 +220,13 @@
 				}
 			}
 			id: "4D90C42B6E294337"
-			subtitle: "Easy, spectacular and fun melee combat system."
+			subtitle: "Простая, эффектная и весёлая система ближнего боя."
 			tasks: [{
 				id: "6186C900B11AF9C7"
-				title: "Art Of Combat"
+				title: "Искусство боя"
 				type: "checkmark"
 			}]
-			title: "&6Art of Combat"
+			title: "&6Искусство боя"
 			x: 8.5d
 			y: 5.0d
 		}
@@ -240,16 +240,16 @@
 				item: "minecraft:carrot"
 				type: "item"
 			}]
-			subtitle: "Through eating diverse foods you unlock more hearts and unique effects."
+			subtitle: "Поедая разнообразную еду, вы открываете больше сердец и уникальные эффекты."
 			tasks: [{
 				id: "4EB555F43B761736"
-				title: "Carrot Mode"
+				title: "Морковный режим"
 				type: "checkmark"
 			}]
-			title: "&6Carrot Mode"
+			title: "&6Морковный режим"
 			x: 6.5d
 			y: 5.0d
 		}
 	]
-	title: "Getting Started"
+	title: "Начало игры"
 }
