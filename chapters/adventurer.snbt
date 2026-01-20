@@ -10,53 +10,53 @@
 	quests: [
 		{
 			id: "6EC4700B21DB617B"
-			subtitle: "If we were meant to stay in one place, we’d have roots instead of feet."
+			subtitle: "Если бы мы должны были оставаться на одном месте, у нас были бы корни вместо ног."
 			tasks: [{
 				id: "40FC0E99020D1BB4"
 				type: "checkmark"
 			}]
-			title: "Adventures and Mysteries"
+			title: "Приключения и Тайны"
 			x: -0.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["6EC4700B21DB617B"]
 			description: [
-				"&6Go Fish &radds in general &bFishes&r, which are obtainable globally in any area for each dimension, and biome-specific &bFishes&r, which are only obtainable in certain areas &6(See below)&r."
+				"&6Go Fish &rдобавляет обычную &bРыбу&r, которую можно поймать повсеместно в любом измерении, и специфичную для биомов &bРыбу&r, которую можно найти только в определенных зонах &6(см. ниже)&r."
 				""
-				"&6Overworld (Global)&r:"
-				"- &bWooden Crate"
-				"- &bIron Crate"
-				"- &bGolden Crate"
-				"- &bDiamond Crate"
+				"&6Верхний мир (Глобально)&r:"
+				"- &bДеревянный ящик"
+				"- &bЖелезный ящик"
+				"- &bЗолотой ящик"
+				"- &bАлмазный ящик"
 				""
-				"&6During a full moon&r:"
-				"- &bLunarfish"
-				"- &bGalaxy Starfish"
-				"- &bStarry Salmon"
-				"- &bNebula Swordfish"
-				"- &bAstral Crate"
+				"&6Во время полнолуния&r:"
+				"- &bЛунная рыба"
+				"- &bГалактическая морская звезда"
+				"- &bЗвездный лосось"
+				"- &bТуманная рыба-меч"
+				"- &bАстральный ящик"
 				""
-				"&6The Nether (Global)&r:"
-				"- &bSmokey Salmon"
-				"- &bMagma Cod"
-				"- &bBonefish"
-				"- &bObsidian Halibut"
-				"- &bBasalt Bass"
-				"- &bSpikerfish"
-				"- &bFiery Crate"
+				"&6Незер (Глобально)&r:"
+				"- &bДымчатый лосось"
+				"- &bМагмовая треска"
+				"- &bКостяная рыба"
+				"- &bОбсидиановый палтус"
+				"- &bБазальтовый окунь"
+				"- &bШипастая рыба"
+				"- &bОгненный ящик"
 				""
-				"&6Basalt Deltas:"
-				"- &bGilded Blackstone Carp"
-				"- &bGilded Blackstone Crate"
-				"- &bBlackstone Trout"
+				"&6Базальтовые дельты:"
+				"- &bПозолоченный чернокаменный карп"
+				"- &bПозолоченный чернокаменный ящик"
+				"- &bЧернокаменная форель"
 				""
-				"&6Soul Sand Valley:"
-				"- &bSoul Salmon"
-				"- &bSoul Crate"
+				"&6Долина песка душ:"
+				"- &bЛосось душ"
+				"- &bЯщик душ"
 				""
-				"&6The End:"
-				"- &bBaked Endfish"
+				"&6Энд:"
+				"- &bЗапеченная Энд-рыба"
 			]
 			icon: {
 				Count: 1b
@@ -80,7 +80,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Fishing should be fun."
+			subtitle: "Рыбалка должна быть в удовольствие."
 			tasks: [{
 				id: "52BEAE23DF485E51"
 				item: {
@@ -92,13 +92,13 @@
 				}
 				type: "item"
 			}]
-			title: "&bFishes and Crates!"
+			title: "&bРыбы и Ящики!"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6EC4700B21DB617B"]
-			description: ["&6You can break &rthe &bWaystones &rand use them for creative ways of teleportation."]
+			description: ["&6Вы можете сломать &r&bПутевые камни &rи использовать их для креативных способов телепортации."]
 			id: "23C3589FAFB40AD5"
 			rewards: [{
 				id: "6137857F9A944F31"
@@ -114,7 +114,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Discover your first Waystone, can be found in villages."
+			subtitle: "Найдите свой первый Путевой камень, их можно встретить в деревнях."
 			tasks: [{
 				icon: "fwaystones:waystone"
 				id: "2E15906644124214"
@@ -127,7 +127,7 @@
 				}
 				type: "item"
 			}]
-			title: "&3Waystones"
+			title: "&3Путевые камни"
 			x: -1.5d
 			y: -2.5d
 		}
@@ -162,24 +162,24 @@
 					type: "item"
 				}
 			]
-			subtitle: "Locate a Small Graveyard structure. Be sure to have a look or two below the graves for shiny loot."
+			subtitle: "Найдите структуру Маленькое кладбище. Обязательно загляните под могилы в поисках блестящей добычи."
 			tasks: [{
 				id: "63A78B39851541A7"
 				structure: "graveyard:small_graveyard"
 				type: "structure"
 			}]
-			title: "&4Find a Graveyard"
+			title: "&4Найти кладбище"
 			x: 0.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["6EC4700B21DB617B"]
 			description: [
-				"The &bitems &radded by this &6mod &rcan be found in &bChests&r."
+				"&bПредметы&r, добавленные этим &6модом&r, можно найти в &bСундуках&r."
 				""
-				"All &bArtifacts &ronly have a few &bChests &rin which they can be found, so go out and explore!"
+				"Все &bАртефакты &rможно найти только в определенных &bСундуках&r, так что выходите и исследуйте мир!"
 				""
-				"Additionally, a new &bUnderground Campsite &rstructure has been added. &bMimics &roccasionally &6spawn in these &bCampsites &rinstead of a &bChests&r, which are dangerous &benemies &rthat &6attack &rplayers that get too close. &bMimics &ralways drop a random artifact when killed."
+				"Кроме того, добавлена новая структура &bПодземный лагерь&r. В этих &bЛагерях &6иногда вместо сундуков появляются &bМимики&r — опасные &bвраги&r, которые &6атакуют &rигроков, подошедших слишком близко. Из &bМимиков &rвсегда выпадает случайный артефапкт после смерти."
 			]
 			id: "32910C1041DE2764"
 			rewards: [{
@@ -196,7 +196,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Magical items with great power."
+			subtitle: "Магические предметы огромной силы."
 			tasks: [{
 				id: "51B9513FF8AB7491"
 				item: {
@@ -208,16 +208,16 @@
 				}
 				type: "item"
 			}]
-			title: "&6Artifacts"
+			title: "&6Артефакты"
 			x: -0.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["6EC4700B21DB617B"]
 			description: [
-				"&6To make a portal &rto the &bTwilight Forest&r, &6make a 2x2 shallow pool &r(4 squares) of &bWater &rin a grassy area, and surround it entirely with natural stuff (&bflowers, mushrooms, saplings, leaves, grass, &ranything considered a \"plant\" or \"leaves\")."
+				"&6Чтобы создать портал &rв &bСумеречный лес&r, &6сделайте неглубокий бассейн 2x2 &r(4 блока) &bВоды &rв травянистой местности и полностью окружите его природными объектами (&bцветы, грибы, саженцы, листья, трава &r— всё, что считается «растением» или «листвой»)."
 				""
-				"&bTwilight Forest &ris a dimension exploration mod focused on adventure that will &6take you on a journey &rto meet strange &bcreatures&r, &bexploring dungeons&r, &band much more&r."
+				"&bTwilight Forest &r— это мод на исследование измерения, ориентированный на приключения, который &6отправит вас в путешествие&r, где вы встретите странных &bсуществ&r, &bисследуете подземелья &rи &bмногое другое&r."
 			]
 			icon: "twilightforest:twilight_portal_miniature_structure"
 			id: "36D37A1AFFC1B369"
@@ -235,29 +235,29 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Step into the Twilight Realm!"
+			subtitle: "Шагните в Сумеречное королевство!"
 			tasks: [{
 				dimension: "twilightforest:twilight_forest"
 				icon: "twilightforest:twilight_portal_miniature_structure"
 				id: "64630338E7F2207F"
 				type: "dimension"
 			}]
-			title: "&5The Twilight Forest"
+			title: "&5Сумеречный лес"
 			x: 1.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["6EC4700B21DB617B"]
 			description: [
-				"&6Ad Astra &ris a &btechnology &rand &bspace exploration &rmod."
+				"&6Ad Astra &r— это мод на &bтехнологии &rи &bисследование космоса&r."
 				""
-				"It allows you to build &bRockets &rcapable of &bSpace Travel&r. Yes, even mineable &eCheese."
+				"Он позволяет строить &bРакеты&r, способные к &bкосмическим путешествиям&r. Да, тут есть даже добываемый &eСыр&r."
 				""
-				"&6You can explore &rmultiple planets throughout the &bSolar System&r, build &boxygenated &rspace stations and &bbases &rsurvivable in space."
+				"&6Вы можете исследовать &rмножество планет в &bСолнечной системе&r, строить &bгерметичные &rкосмические станции и &bбазы&r, пригодные для жизни в космосе."
 				""
-				"Had dreams about being an astronaut? This is it!"
+				"Мечтали стать астронавтом? Это ваш шанс!"
 				""
-				"&6Complete this quest &rby crafting the &bAstrodux&r."
+				"&6Завершите этот квест&r, создав &bAstrodux&r."
 			]
 			icon: {
 				Count: 1b
@@ -287,30 +287,30 @@
 					type: "item"
 				}
 			]
-			subtitle: "To the moon!"
+			subtitle: "На луну!"
 			tasks: [{
 				id: "5E109F35ECDB37C6"
 				item: "ad_astra:astrodux"
 				type: "item"
 			}]
-			title: "&9Space Travels"
+			title: "&9Космические путешествия"
 			x: -2.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["6EC4700B21DB617B"]
 			description: [
-				"&bThe Archeology System &6introduces the following&r:"
+				"&bСистема археологии &6вводит следующее&r:"
 				""
-				"&bThe Copper Brush &ris a new tool used for &6excavating special blocks &rfor getting loot."
+				"&bМедная кисть &r— это новый инструмент, используемый для &6раскопок специальных блоков &rс целью получения добычи."
 				""
-				"&bBrushing Excavation Blocks: "
+				"&bОчистка блоков раскопок: "
 				""
-				"Currently, there are two excavation blocks in the mod: &bExcavation Dirt &rand &bGravel&r."
+				"На данный момент в моде есть два блока раскопок: &bГрязь для раскопок &rи &bГравий&r."
 				""
-				"When fully brushed off, the block drops random loot based on where you found it and how oxidated it is."
+				"При полной очистке из блока выпадает случайная добыча, зависящая от места находки и степени окисления кисти."
 				""
-				"While &6brushing&r, you should &6move your cursor &rto stop the block from breaking and losing the potential drops. The more oxidized your brush is, the faster the block breaks, so move quickly!"
+				"Во время &6очистки &rвам следует &6двигать курсором&r, чтобы блок не сломался и вы не потеряли возможную добычу. Чем сильнее окислена ваша кисть, тем быстрее ломается блок, так что действуйте быстро!"
 			]
 			id: "5DDFDC4C2426CF6F"
 			rewards: [
@@ -335,7 +335,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Know your prehistory."
+			subtitle: "Познайте свою предысторию."
 			tasks: [{
 				id: "67902E2781D56FFF"
 				item: {
@@ -347,16 +347,16 @@
 				}
 				type: "item"
 			}]
-			title: "&dArcheology"
+			title: "&dАрхеология"
 			x: -2.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6EC4700B21DB617B"]
 			description: [
-				"What does this mean?"
+				"Что это значит?"
 				""
-				"When you &6open a loot chest &r(distinctly textured from &bVanilla chests&r), what items you get are unique to you (as though you had opened an &bEnder Chest&r)."
+				"Когда вы &6открываете сундук с добычей &r(отличается по текстуре от &bванильных сундуков&r), получаемые вами предметы уникальны только для вас (как если бы вы открыли &bЭндер-сундук&r)."
 			]
 			id: "34216A1573B90BBB"
 			rewards: [{
@@ -373,7 +373,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Unique instanced loot for every player!"
+			subtitle: "Уникальная индивидуальная добыча для каждого игрока!"
 			tasks: [{
 				advancement: "lootr:1chest"
 				criterion: ""
@@ -387,13 +387,13 @@
 		{
 			dependencies: ["6EC4700B21DB617B"]
 			description: [
-				"To start your adventure &rwith &bMine Cells&r, &6find a portal structure&r. The &bportal&r will &6activate&r for you automatically if you've already acquired diamonds in the world."
+				"Чтобы начать приключение &rв &bMine Cells&r, &6найдите структуру портала&r. &bПортал&r &6активируется&r для вас автоматически, если вы уже добыли алмазы в мире."
 				""
-				"&bMine Cells &rfeatures new &bMonsters &rwhich attempt to faithfully recreate the look and feel of the original game."
+				"&bMine Cells &rдобавляет новых &bМонстров&r, которые пытаются точно воссоздать внешний вид и ощущения из оригинальной игры."
 				""
-				"&bMine Cells &6introduces one new boss&r - &bThe Conjunctivius&r."
+				"&bMine Cells &6представляет одного нового босса&r — &bКонъюнктивиус&r."
 				""
-				"You can find her lair in the &bPrison structure &r/ &bdimension&r."
+				"Вы можете найти её логово в структуре &bТюрьма &r/ &bизмерении&r."
 			]
 			id: "6AA8C1349BCC891D"
 			rewards: [{
@@ -410,7 +410,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Dive into the story of Dead Cells!"
+			subtitle: "Погрузитесь в историю Dead Cells!"
 			tasks: [{
 				dimension: "minecells:prison"
 				icon: "minecells:conjunctivius_respawn_rune"
@@ -423,7 +423,7 @@
 		}
 		{
 			dependencies: ["6EC4700B21DB617B"]
-			description: ["&6You can also make yourself &r(riding a mob or vehicle) or have any mob &6enter the dimension &rby using a &bPiston &rto push the player or mob into a &bBeehive &ror &bBee Nest &rblock!"]
+			description: ["&6Вы также можете заставить себя &r(верхом на мобе или транспорте) или любого моба &6войти в измерение&r, используя &bПоршень&r, чтобы затолкнуть игрока или моба в блок &bУлья &rили &bПчелиного гнезда&r!"]
 			id: "438319FC721F0274"
 			rewards: [{
 				id: "265BD5CE05DD0429"
@@ -439,7 +439,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Throw an Enderpearl at a Bee Nest? I now see yellow."
+			subtitle: "Кинуть Эндер-жемчуг в Пчелиное гнездо? Теперь я вижу всё в желтом цвете."
 			tasks: [{
 				dimension: "the_bumblezone:the_bumblezone"
 				icon: "the_bumblezone:bee_queen_spawn_egg"
@@ -451,5 +451,5 @@
 			y: 2.0d
 		}
 	]
-	title: "Adventurer"
+	title: "Авантюрист"
 }
